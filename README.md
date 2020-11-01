@@ -37,7 +37,7 @@
     ···
     ·3，使用set写入，get调用输出。
 ## 输出结果：
-！[](https://github.com/qiuyufei/shiyan3/blob/main/1.png)
+![](https://github.com/qiuyufei/shiyan3/blob/main/1.png)
 
 ## 实验感想：
     ·首先明确了java代码的大框架，明确了子类父类的关系可以使用继承，一个子类只能有一个父类。
