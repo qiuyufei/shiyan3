@@ -23,12 +23,21 @@
     ·然后在LIst.java中使用set方法写入相应信息，在使用get方法调用相应的信息，然后调用并输出输出相应结果，从而达到测试主类，模拟选课，模拟退课，展示信息的操作。
     ·其他具体详情见核心代码环节
 ## 核心代码：
-    ·定义父类，继承代码展示：
+    ·1，定义父类，继承代码展示：
     ···
     class personner
     public class Students extends Personner{}
     class Teacher extends Personne{}
     ···
-    ·这里我们需要用到java.text.SimpleDateFormat类的format方法,其中可以指定年月日时分秒的模式字符串格式。
+    ·2，这里我们需要用到java.text.SimpleDateFormat类的format方法,其中可以指定年月日时分秒的模式字符串格式。
+    ···
+    import java.text.SimpleDateFormat;
+    import java.util.Date;
+    SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+    ···
+    ·3，使用set写入，get调用输出。
 ## 输出结果：
 ## 实验感想：
+    ·首先明确了java代码的大框架，明确了子类父类的关系可以使用继承，一个子类只能有一个父类。
+    ·其次目前可以比较熟练的使用set和get方法，来达成自己的目的。
+    ·然后此次代码的完成在没有思路时完成的很困难，去同学哪里取了不少经，以后会匀出时间去钻研研究。
