@@ -24,11 +24,11 @@
     ·其他具体详情见核心代码环节
 ## 核心代码：
     ·定义父类，继承代码展示：
-    ```
+    ···
     class personner
     public class Students extends Personner{}
     class Teacher extends Personne{}
-    ```
+    ···
     ·这里我们需要用到java.text.SimpleDateFormat类的format方法,其中可以指定年月日时分秒的模式字符串格式。
 ## 输出结果：
 ## 实验感想：
