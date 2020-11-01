@@ -7,7 +7,6 @@ package shiyan3;
 		this.number=number;
 		this.name=name;
 		this.sex=sex;
-		
 	}
 	
 	public String getNumber() {
